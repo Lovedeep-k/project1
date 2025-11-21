@@ -14,7 +14,7 @@ urlpatterns = [
     path("contact",contact),
     path("indexx",indexs),
     path("news",news),
-    path("singleproduct/shop",shop),
+    path("shop",shop),
     path("singlenews",singlenews),
     path("singleproduct/<int:id>",singleproduct),
     path('remove/<int:id>',remove),
